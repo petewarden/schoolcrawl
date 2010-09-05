@@ -1,0 +1,12 @@
+Schoolcrawl
+~~~~~~~~~~~~~~~
+
+This module lets you download the school effectiveness information held on the LA Times website.
+*Before using, double-check http://projects.latimes.com/robots.txt to ensure you're obeying the terms-of-service*
+
+To use, run
+./gatherschools.php -r "<Your organization>" -e "<Your email>" -m 1 -o schooldata.csv
+
+This will gather and store the school data as a CSV file suitable for uploading to OpenHeatMap
+
+By Pete Warden <pete@petewarden.com>, freely reusable, see http://petewarden.typepad.com for more
